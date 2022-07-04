@@ -3,6 +3,10 @@ const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 const FILE_TO_CACHE = [
     //add files in here 
+    './index.html',
+    './css/style.css',
+    './js/index.js',
+    './js/idb.js'
 ]
 
 // Respond with cached resources 
